@@ -35,6 +35,10 @@
         "craftcms/flysystem": "^1.0.0-beta.2",
         "league/flysystem-aws-s3-v3": "^3.0.0"
     },
+    "require-dev": {
+        "craftcms/rector": "dev-main",
+        "craftcms/phpstan": "dev-main"
+    },
     "autoload": {
         "psr-4": {
             "mwikala\\linodes3\\": "src/"
@@ -53,8 +57,5 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require-dev": {
-        "craftcms/rector": "dev-main"
-    }
+    "prefer-stable": true
 }
